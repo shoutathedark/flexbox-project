@@ -1,0 +1,162 @@
+body{
+    font-family: roboto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0;
+}
+
+.displayflex{
+    display: flex;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.header{
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding: 50px 100px 0px 100px;
+}
+
+.header-bottom{
+    height: 200px;
+}
+
+.header-top, .header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.header-logo{
+    font-size: 24px;
+    
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
+
+a {
+    text-decoration: none;
+}
+
+.imgplaceholder{
+    display: flex;
+    align-items: stretch;
+    background-color: gray;
+    text-wrap: nowrap;
+    padding: 90px 125px 90px 125px;
+    margin-left: 25px;
+}
+
+.maintext{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.secondarytext, .header-links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button{
+    width: 25%;
+    background-color: #3882F6;
+    padding: 10px 22px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+}
+
+.middle{
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.infotext{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    padding: 16px;
+}
+
+.imagecontainer{
+    gap: 25px;
+    justify-content: center;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+.boxwords{
+    width: 150px;
+    text-align: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 100px 300px 100px 300px;
+}
+
+.quotetext{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quotefrom{
+    font: bold;
+    text-align: right;
+}
+
+.banner{
+    padding:50px 150px 50px 150px;
+    justify-content: center;
+}
+
+.innerbanner{
+    padding:50px 150px 50px 150px;
+    background-color: #3882F6;
+    color: white;
+    gap:20px;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 10px;
+}
+
+p{
+    white-space: pre;
+}
+
+.signupbutton{
+    background:none;
+    text-wrap: nowrap;
+    padding: 8px;
+    color: white;
+    border-radius: 4px;
+    border-color: white;
+    border-style: solid;
+}
